@@ -37,7 +37,36 @@ const StarryBackground = ({ className }: StarryBackgroundProps) => {
             },
           },
           color: {
-            value: isDarkMode ? "#ffffff" : "#000000",
+            value: isDarkMode
+              ? [
+                  "#ffffff",
+                  "#f0f8ff",
+                  "#e6f3ff",
+                  "#cce6ff",
+                  "#b3d9ff",
+                  "#99ccff",
+                  "#80bfff",
+                  "#66b2ff",
+                  "#4da6ff",
+                  "#3399ff",
+                  "#1a8cff",
+                  "#0080ff",
+                  "#0066cc",
+                  "#004d99",
+                  "#003366",
+                ]
+              : [
+                  "#000000",
+                  "#1a1a1a",
+                  "#333333",
+                  "#4d4d4d",
+                  "#666666",
+                  "#808080",
+                  "#999999",
+                  "#b3b3b3",
+                  "#cccccc",
+                  "#e6e6e6",
+                ],
           },
           shape: {
             type: "circle",

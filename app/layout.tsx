@@ -13,6 +13,16 @@ export const metadata: Metadata = {
   description:
     "We build quiet, powerful workflow automations for small teams, consultants, and businesses using tools like GPT, Make.com, and Airtable.",
   generator: "v0.dev",
+  icons: {
+    icon: [
+      {
+        url: "/images/triggerly-logo.png",
+        type: "image/png",
+      },
+    ],
+    shortcut: "/images/triggerly-logo.png",
+    apple: "/images/triggerly-logo.png",
+  },
 };
 
 export default function RootLayout({

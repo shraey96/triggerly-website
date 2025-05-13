@@ -2,11 +2,13 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Sun, Moon } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { useTheme } from "next-themes";
+import { handleSmoothScroll } from "@/lib/utils";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,10 +35,24 @@ const Header = () => {
   };
 
   const navLinks = [
-    { name: "Use Cases", path: "#services" },
-    { name: "Case Studies", path: "/case-studies" },
+    { name: "Integrations", path: "/#integrations" },
+    { name: "Use Cases", path: "/use-cases" },
     { name: "Contact", path: "/contact" },
   ];
+
+  // Handles both smooth scrolling and menu closing
+  const handleNavLinkClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    path: string
+  ) => {
+    // Close the mobile menu
+    setIsMenuOpen(false);
+
+    // Only handle smooth scrolling for anchor links
+    if (path.startsWith("#")) {
+      handleSmoothScroll(e);
+    }
+  };
 
   return (
     <motion.header
@@ -53,6 +69,13 @@ const Header = () => {
         <div className="flex h-20 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
+              <Image
+                src="/images/triggerly-logo.png"
+                alt="Triggerly Logo"
+                width={32}
+                height={32}
+                className="mr-2"
+              />
               <span className="text-2xl font-bold text-blue-500">
                 TriggerlyAI
               </span>
@@ -70,6 +93,7 @@ const Header = () => {
                     ? "text-blue-500"
                     : "text-gray-700 dark:text-gray-200"
                 }`}
+                onClick={(e) => handleNavLinkClick(e, link.path)}
               >
                 {link.name}
               </Link>
@@ -146,7 +170,7 @@ const Header = () => {
                       ? "text-blue-500"
                       : "text-gray-700 dark:text-gray-200"
                   }`}
-                  onClick={() => setIsMenuOpen(false)}
+                  onClick={(e) => handleNavLinkClick(e, link.path)}
                 >
                   {link.name}
                 </Link>

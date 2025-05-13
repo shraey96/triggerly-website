@@ -73,50 +73,56 @@ export const caseStudies: CaseStudy[] = [
 export const automationWins: AutomationWin[] = [
   {
     slug: "website-lead-response",
-    problem: "Losing leads from website",
-    solution: "Built AI bot + CRM sync",
+    problem: "Visitors dropped off after filling the contact form.",
+    solution:
+      "We added an AI assistant that replied instantly and synced leads to the CRM.",
     result: "+35% faster lead response",
     icon: <Zap className="h-5 w-5 text-blue-500" />,
-    tools: ["OpenAI", "Make", "Slack"],
+    tools: ["OpenAI", "Make.com", "Slack"],
   },
   {
     slug: "auto-onboarding-emails",
-    problem: "Manual welcome emails",
-    solution: "Auto onboarding email & chatbot flow",
-    result: "4 hours/week saved",
+    problem: "Every welcome email had to be sent manually.",
+    solution:
+      "We set up a smart onboarding flow with GPT-written emails and chatbot replies.",
+    result: "4+ hours/week saved",
     icon: <Clock className="h-5 w-5 text-blue-500" />,
     tools: ["Gmail", "OpenAI", "Zapier"],
   },
   {
     slug: "auto-proposal-generation",
-    problem: "Slow client proposals",
-    solution: "Form → GPT → auto-generated PDF proposal",
-    result: "70% less time spent",
+    problem: "Sales teams wasted time drafting proposals from scratch.",
+    solution:
+      "Built a system to turn form inputs into GPT-written PDF proposals instantly.",
+    result: "70% less time spent per proposal",
     icon: <BarChart className="h-5 w-5 text-blue-500" />,
-    tools: ["OpenAI", "Airtable", "Make"],
+    tools: ["Airtable", "OpenAI", "Make.com"],
   },
   {
     slug: "booking-assistant",
-    problem: "Missed sales appointments",
-    solution: "Booking assistant synced with Google Calendar",
+    problem: "Clients missed meetings or forgot to show up.",
+    solution:
+      "We connected WhatsApp to Google Calendar and automated reminders.",
     result: "95% show-up rate improvement",
     icon: <Calendar className="h-5 w-5 text-blue-500" />,
-    tools: ["OpenAI", "Calendar", "Twilio"],
+    tools: ["Google Calendar", "Twilio", "OpenAI"],
   },
   {
     slug: "whatsapp-support-bot",
-    problem: "Delayed customer replies",
-    solution: "AI chatbot integrated with WhatsApp",
-    result: "60% drop in support response time",
+    problem: "Support agents were overwhelmed by repeat queries.",
+    solution:
+      "Trained a GPT chatbot to answer common WhatsApp questions in real time.",
+    result: "60% drop in response time",
     icon: <MessageSquare className="h-5 w-5 text-blue-500" />,
-    tools: ["OpenAI", "WhatsApp", "Airtable"],
+    tools: ["WhatsApp API", "OpenAI", "Airtable"],
   },
   {
     slug: "cart-recovery-automation",
-    problem: "No follow-up on abandoned cart",
-    solution: "WhatsApp automation for reminders",
+    problem: "Abandoned checkouts weren't being followed up.",
+    solution:
+      "We built a WhatsApp automation to remind users after cart abandonment.",
     result: "18% boost in cart recovery rate",
     icon: <ShoppingCart className="h-5 w-5 text-blue-500" />,
-    tools: ["WhatsApp", "Shopify", "Make"],
+    tools: ["Shopify", "Make.com", "WhatsApp"],
   },
 ];

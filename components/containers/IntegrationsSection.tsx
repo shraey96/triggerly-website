@@ -9,12 +9,15 @@ export default function IntegrationsSection() {
   const isDarkMode = theme === "dark";
 
   return (
-    <section className="w-full py-14 bg-gradient-to-b from-background to-gray-50 dark:to-gray-900/20">
+    <section
+      id="integrations"
+      className="w-full py-14 bg-gradient-to-b from-background to-gray-50 dark:to-gray-900/20 scroll-mt-20"
+    >
       <div className="container mx-auto px-4">
         <FadeIn>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            We build automations for your{" "}
-            <span className="text-blue-500">favorite tools</span>
+            Integrates with Your{" "}
+            <span className="text-blue-500">Favorite Tools</span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 text-center mb-12 max-w-2xl mx-auto">
             We build custom workflows that integrate with the platforms and

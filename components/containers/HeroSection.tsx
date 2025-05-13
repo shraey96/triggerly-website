@@ -9,7 +9,6 @@ import { useTheme } from "next-themes";
 
 export default function HeroSection() {
   const { theme } = useTheme();
-  const isDarkMode = theme === "dark";
 
   return (
     <section className="w-full min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-transparent">
@@ -27,8 +26,8 @@ export default function HeroSection() {
 
           <FadeIn delay={0.2}>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto">
-              TriggerlyAI builds full-stack automation workflows — from strategy
-              to execution — that let your business grow while doing less.
+              We build powerful AI workflows to save your time, boost
+              conversions, and scale your business — without extra headcount.
             </p>
           </FadeIn>
 
