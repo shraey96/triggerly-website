@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Homepage -->
+  <url>
+    <loc>https://triggerlyai.io/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <!-- Use Cases Page -->
+  <url>
+    <loc>https://triggerlyai.io/use-cases</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <!-- Contact Page -->
+  <url>
+    <loc>https://triggerlyai.io/contact</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <!-- Individual Use Case Pages - Add all your use case pages here -->
+  <url>
+    <loc>https://triggerlyai.io/use-cases/website-lead-response</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <priority>0.64</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://triggerlyai.io/use-cases/auto-onboarding-emails</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <priority>0.64</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://triggerlyai.io/use-cases/auto-proposal-generation</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <priority>0.64</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://triggerlyai.io/use-cases/cart-recovery-automation</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <priority>0.64</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset> 

@@ -10,6 +10,12 @@ import { motion } from "framer-motion";
 import { useTheme } from "next-themes";
 import { handleSmoothScroll } from "@/lib/utils";
 
+const navLinks = [
+  { name: "Integrations", path: "/#integrations" },
+  { name: "Use Cases", path: "/#use-cases" },
+  { name: "FAQ", path: "/#faq" },
+];
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -46,12 +52,6 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const navLinks = [
-    { name: "Integrations", path: "/#integrations" },
-    { name: "Use Cases", path: "/#use-cases" },
-    { name: "FAQ", path: "/#faq" },
-  ];
-
   // Handles both smooth scrolling and menu closing
   const handleNavLinkClick = (
     e: React.MouseEvent<HTMLAnchorElement>,
@@ -84,7 +84,7 @@ const Header = () => {
               <Image
                 src="/images/triggerly-logo.png"
                 alt="Triggerly Logo"
-                width={28}
+                width={48}
                 height={28}
                 className="mr-2 w-7 h-7 md:w-8 md:h-8"
               />

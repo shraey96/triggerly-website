@@ -1,11 +1,15 @@
 "use client";
 
+import { useEffect, useState } from "react";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Calendar, MessageSquare } from "lucide-react";
 import { FadeIn } from "@/components/animations";
-import Link from "next/link";
-import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+
+const TALLY_SCRIPT_URL = "https://tally.so/widgets/embed.js";
+const TALLY_EMBED_URL =
+  "https://tally.so/embed/mep1jo?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1";
 
 export default function FinalCTASection() {
   const { theme, resolvedTheme } = useTheme();
@@ -23,11 +27,7 @@ export default function FinalCTASection() {
   useEffect(() => {
     if (mounted) {
       const isDarkMode = theme === "dark" || resolvedTheme === "dark";
-      setTallyFormUrl(
-        `https://tally.so/embed/mep1jo?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1${
-          isDarkMode ? "&theme=dark" : ""
-        }`
-      );
+      setTallyFormUrl(`${TALLY_EMBED_URL}${isDarkMode ? "&theme=dark" : ""}`);
       // Increment the key to force a complete re-render of the iframe
       setIframeKey((prevKey) => prevKey + 1);
 
@@ -48,7 +48,7 @@ export default function FinalCTASection() {
 
     const loadTallyScript = () => {
       const script = document.createElement("script");
-      script.src = "https://tally.so/widgets/embed.js";
+      script.src = TALLY_SCRIPT_URL;
       script.async = true;
       script.onload = () => {
         // @ts-ignore
@@ -68,9 +68,7 @@ export default function FinalCTASection() {
     };
 
     // Check if the script is already loaded
-    if (
-      !document.querySelector('script[src="https://tally.so/widgets/embed.js"]')
-    ) {
+    if (!document.querySelector(`script[src="${TALLY_SCRIPT_URL}"]`)) {
       loadTallyScript();
     } else {
       // If the script is already loaded, just load the embeds
