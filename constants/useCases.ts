@@ -1,13 +1,3 @@
-import { ReactNode } from "react";
-import {
-  Zap,
-  Clock,
-  BarChart,
-  MessageSquare,
-  Calendar,
-  ShoppingCart,
-} from "lucide-react";
-
 export interface UseCase {
   slug: string;
   title: string;

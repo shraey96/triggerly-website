@@ -24,20 +24,20 @@ export default function UseCaseCardsGrid() {
   return (
     <section
       id="use-cases"
-      className="w-full py-20 px-4 bg-gray-50 dark:bg-gray-900/50 scroll-mt-20"
+      className="w-full py-12 sm:py-16 md:py-20 px-4 bg-gray-50 dark:bg-gray-900/50 scroll-mt-16 md:scroll-mt-20"
     >
       <div className="container mx-auto">
         <FadeIn>
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 md:mb-4">
             Automation Wins
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-16 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 text-center mb-8 sm:mb-12 md:mb-16 max-w-3xl mx-auto">
             Explore examples of high-leverage automations built using AI
             workflows — with clear business outcomes.
           </p>
         </FadeIn>
 
-        <StaggerContainer className="grid md:grid-cols-2 gap-6 mb-12">
+        <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-12">
           {highlightedUseCases.map((useCase, index) => (
             <StaggerItem key={index}>
               <UseCaseCard useCase={useCase} />
@@ -49,9 +49,10 @@ export default function UseCaseCardsGrid() {
           <FadeIn>
             <Link
               href="/use-cases"
-              className="inline-flex items-center gap-2 py-2 px-6 text-base font-medium text-white rounded-full bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
+              className="inline-flex items-center gap-2 py-1.5 sm:py-2 px-4 sm:px-6 text-sm sm:text-base font-medium text-white rounded-full bg-blue-500 hover:bg-blue-600 transition-colors duration-300"
             >
-              View all use cases <ArrowRight className="h-4 w-4" />
+              View all use cases{" "}
+              <ArrowRight className="h-3 w-3 sm:h-4 sm:w-4" />
             </Link>
           </FadeIn>
         </div>
