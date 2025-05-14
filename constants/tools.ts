@@ -47,10 +47,10 @@ export const apps: AppItem[] = [
     name: "X",
     icon: "https://abs.twimg.com/responsive-web/client-web/icon-ios.b1fc727a.png",
   },
-  {
-    name: "Meta Ads",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/512px-Meta_Platforms_Inc._logo.svg.png",
-  },
+  // {
+  //   name: "Meta Ads",
+  //   icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/512px-Meta_Platforms_Inc._logo.svg.png",
+  // },
   {
     name: "Sheets",
     icon: "https://www.gstatic.com/images/branding/product/2x/sheets_2020q4_48dp.png",
@@ -64,10 +64,10 @@ export const apps: AppItem[] = [
     name: "GitHub",
     icon: "https://github.githubassets.com/favicons/favicon.svg",
   },
-  {
-    name: "Analytics",
-    icon: "https://ssl.gstatic.com/analytics/20230920-00/app/static/analytics.png",
-  },
+  // {
+  //   name: "Analytics",
+  //   icon: "https://ssl.gstatic.com/analytics/20230920-00/app/static/analytics.png",
+  // },
   {
     name: "Search",
     icon: "https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png",

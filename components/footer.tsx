@@ -16,13 +16,13 @@ const Footer = () => {
                 Home
               </Link>
               <Link
-                href="/case-studies"
+                href="/#use-cases"
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400"
               >
                 Case Studies
               </Link>
               <Link
-                href="/contact"
+                href="/#contact"
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400"
               >
                 Contact

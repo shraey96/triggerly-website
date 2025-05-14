@@ -14,14 +14,14 @@ export const testimonials: Testimonial[] = [
       "I used to miss leads from my website all the time. Now, every inquiry gets a WhatsApp reply in under 30 seconds. I've booked 2x more intro calls this month.",
   },
   {
-    name: "Anjali P.",
+    name: "Emily R.",
     title: "Ecom Store Founder",
     automation: "Cart Recovery Automation",
     quote:
       "We recovered over a dozen abandoned checkouts in just the first week. The WhatsApp reminders feel natural — and they convert.",
   },
   {
-    name: "Varun K.",
+    name: "Daniel M.",
     title: "Consultant",
     automation: "Proposal Generation System",
     quote:

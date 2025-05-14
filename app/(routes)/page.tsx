@@ -5,6 +5,7 @@ import IntegrationsSection from "@/components/containers/IntegrationsSection";
 import UseCaseCardsGrid from "@/components/containers/UseCaseCardsGrid";
 import HowItWorksSection from "@/components/containers/HowItWorksSection";
 import TestimonialsSection from "@/components/containers/TestimonialsSection";
+import FAQSection from "@/components/containers/FAQSection";
 import FinalCTASection from "@/components/containers/FinalCTASection";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <UseCaseCardsGrid />
       <HowItWorksSection />
       <TestimonialsSection />
+      <FAQSection />
       <FinalCTASection />
     </div>
   );

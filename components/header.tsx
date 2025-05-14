@@ -36,8 +36,8 @@ const Header = () => {
 
   const navLinks = [
     { name: "Integrations", path: "/#integrations" },
-    { name: "Use Cases", path: "/use-cases" },
-    { name: "Contact", path: "/contact" },
+    { name: "Use Cases", path: "/#use-cases" },
+    { name: "FAQ", path: "/#faq" },
   ];
 
   // Handles both smooth scrolling and menu closing
@@ -119,7 +119,12 @@ const Header = () => {
               asChild
               className="bg-blue-500 hover:bg-blue-600 text-white border-0 h-12 px-6"
             >
-              <Link href="/contact">Book a Call</Link>
+              <Link
+                href="/#contact"
+                onClick={(e) => handleNavLinkClick(e, "/#contact")}
+              >
+                Contact Us
+              </Link>
             </Button>
           </div>
 
@@ -179,8 +184,8 @@ const Header = () => {
                 asChild
                 className="w-full bg-blue-500 hover:bg-blue-600 text-white border-0"
               >
-                <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
-                  Book a Call
+                <Link href="/#contact" onClick={() => setIsMenuOpen(false)}>
+                  Contact Us
                 </Link>
               </Button>
             </nav>
