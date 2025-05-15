@@ -18,9 +18,9 @@ const getHighlightedUseCases = (): UseCase[] => {
   return highlightedCases.filter((useCase): useCase is UseCase => !!useCase);
 };
 
-export default function UseCaseCardsGrid() {
-  const highlightedUseCases = getHighlightedUseCases();
+const highlightedUseCases = getHighlightedUseCases();
 
+export default function UseCaseCardsGrid() {
   return (
     <section
       id="use-cases"
