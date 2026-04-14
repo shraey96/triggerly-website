@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "Website Design & Solutions for Small Businesses – TriggerlyAI",
+  title: "Website Design & Solutions for Businesses – TriggerlyAI",
   description:
-    "Professional website design for small and medium businesses. Domain, hosting, SEO and support included. Get found online today.",
+    "Professional website design for businesses. Domain, hosting, SEO and support included. Get found online today.",
   keywords: [
-    "website design for small business",
-    "small business website",
+    "website design for business",
+    "business website",
     "professional website design",
     "SMB website solutions",
     "get business online",
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     canonical: "/website-solutions",
   },
   openGraph: {
-    title: "Website Design & Solutions for Small Businesses – TriggerlyAI",
+    title: "Website Design & Solutions for Businesses – TriggerlyAI",
     description:
-      "Professional website design for small and medium businesses. Domain, hosting, SEO and 1 year of updates included.",
+      "Professional website design for businesses. Domain, hosting, SEO and 1 year of updates included.",
     url: "https://triggerlyai.io/website-solutions",
     siteName: "TriggerlyAI",
     locale: "en_US",
