@@ -89,7 +89,7 @@ export default function WebsiteSolutionsPage() {
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <FadeIn>
             <span className="inline-block text-xs md:text-sm font-semibold tracking-widest uppercase text-blue-500 mb-4 bg-blue-50 dark:bg-blue-950/50 border border-blue-200 dark:border-blue-800 px-4 py-1.5 rounded-full">
-              Web Design &amp; Solutions for Small Businesses
+              Web Design &amp; Solutions for Businesses
             </span>
           </FadeIn>
 
