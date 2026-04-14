@@ -192,7 +192,7 @@ export default function FinalCTASection() {
                     asChild
                   >
                     <Link
-                      href="https://calendly.com/triggerlyai"
+                      href="https://cal.com/shraey-chikker-ad5dyk/15min"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
