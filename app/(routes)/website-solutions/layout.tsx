@@ -24,8 +24,23 @@ export const metadata: Metadata = {
       "Professional website design for businesses. Domain, hosting, SEO and 1 year of updates included.",
     url: "https://triggerlyai.io/website-solutions",
     siteName: "TriggerlyAI",
+    images: [
+      {
+        url: "/images/og-website-desktop.png",
+        width: 1200,
+        height: 630,
+        alt: "TriggerlyAI - Website Design & Solutions for Businesses",
+      },
+    ],
     locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Website Design & Solutions for Businesses – TriggerlyAI",
+    description:
+      "Professional website design for businesses. Domain, hosting, SEO and support included.",
+    images: ["/images/og-website-desktop.png"],
   },
 };
 
