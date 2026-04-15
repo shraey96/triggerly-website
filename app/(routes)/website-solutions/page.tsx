@@ -69,7 +69,6 @@ const included = [
   "Domain name",
   "Hosting for 1 year",
   "Mobile-friendly responsive design",
-  "Contact enquiry form",
   "Google Maps integration",
   "SSL security certificate",
   "Basic SEO setup (meta tags, local keywords)",
