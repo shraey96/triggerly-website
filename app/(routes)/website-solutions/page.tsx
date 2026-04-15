@@ -71,9 +71,9 @@ const included = [
   "Mobile-friendly responsive design",
   "Google Maps integration",
   "SSL security certificate",
-  "Basic SEO setup (meta tags, local keywords)",
-  "Google Search submission",
   "1 year of free content updates",
+  "Google Search submission",
+  "Basic SEO setup (meta tags, local keywords)",
 ];
 
 // ─── PAGE ─────────────────────────────────────────────────────────────────────
