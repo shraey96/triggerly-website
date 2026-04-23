@@ -38,7 +38,7 @@ export default function HeroSection() {
                 className="bg-blue-500 hover:bg-blue-600 text-white border-0 h-12 md:h-14 px-6 md:px-8 rounded-full w-full sm:w-auto text-sm md:text-base"
                 asChild
               >
-                <Link href="/contact">
+                <Link href="https://cal.com/shraey-chikker-ad5dyk/15min" target="_blank" rel="noopener noreferrer">
                   Book a Free Call{" "}
                   <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
                 </Link>
