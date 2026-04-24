@@ -13,7 +13,7 @@ export const workflowSteps: WorkflowStep[] = [
     step: 1,
     title: "Consultation",
     description:
-      "We understand your workflows, bottlenecks, and goals — then identify key opportunities for automation.",
+      "We understand your workflows, bottlenecks, and goals, then identify key opportunities for automation.",
     icon: <Lightbulb className="h-5 w-5" />,
   },
   {
@@ -34,7 +34,7 @@ export const workflowSteps: WorkflowStep[] = [
     step: 4,
     title: "Optimization",
     description:
-      "We test, monitor, and iterate — ensuring performance, accuracy, and long-term value.",
+      "We test, monitor, and iterate to ensure performance, accuracy, and long-term value.",
     icon: <Gauge className="h-5 w-5" />,
   },
 ];

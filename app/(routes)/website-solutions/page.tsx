@@ -11,7 +11,14 @@ import {
   Clock,
   Trophy,
   CheckCircle2,
+  HelpCircle,
 } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 // ─── DATA ────────────────────────────────────────────────────────────────────
 
@@ -240,6 +247,104 @@ export default function WebsiteSolutionsPage() {
                 </p>
               </div>
             </div>
+          </FadeIn>
+        </div>
+      </section>
+
+      {/* ── FAQ ── */}
+      <section className="w-full py-16 sm:py-20 md:py-28 px-4 bg-white dark:bg-gray-950">
+        <div className="container mx-auto max-w-3xl">
+          <FadeIn>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4">
+              Frequently asked questions
+            </h2>
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-400 text-center mb-12 md:mb-16 max-w-2xl mx-auto">
+              Common questions about our web design services.
+            </p>
+          </FadeIn>
+
+          <FadeIn delay={0.1}>
+            <Accordion type="single" collapsible className="w-full space-y-3">
+              <AccordionItem
+                value="cost"
+                className="bg-gray-50 dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 px-6"
+              >
+                <AccordionTrigger className="text-left text-base md:text-lg font-semibold hover:no-underline">
+                  How much does a business website cost?
+                </AccordionTrigger>
+                <AccordionContent className="text-sm md:text-base text-gray-600 dark:text-gray-400 leading-relaxed">
+                  Our website packages start at an affordable flat rate with no
+                  hidden fees. Every package includes domain registration, hosting
+                  for 1 year, SSL certificate, mobile-responsive design, basic SEO
+                  setup, and 1 year of free content updates. Contact us for a
+                  custom quote based on your needs.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem
+                value="timeline"
+                className="bg-gray-50 dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 px-6"
+              >
+                <AccordionTrigger className="text-left text-base md:text-lg font-semibold hover:no-underline">
+                  How long does it take to build a website?
+                </AccordionTrigger>
+                <AccordionContent className="text-sm md:text-base text-gray-600 dark:text-gray-400 leading-relaxed">
+                  Most websites are designed, built, and launched
+                  within 1-3 weeks. The timeline depends on how quickly you
+                  provide your content (text, images, branding) and the complexity
+                  of the design. We keep you updated at every step.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem
+                value="seo"
+                className="bg-gray-50 dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 px-6"
+              >
+                <AccordionTrigger className="text-left text-base md:text-lg font-semibold hover:no-underline">
+                  Will my website show up on Google?
+                </AccordionTrigger>
+                <AccordionContent className="text-sm md:text-base text-gray-600 dark:text-gray-400 leading-relaxed">
+                  Yes. Every website we build includes basic SEO setup including meta
+                  tags, page titles, local keywords, Google Search submission, and
+                  a mobile-friendly design (which Google prioritizes). We also
+                  integrate Google Maps so customers can find your physical
+                  location easily.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem
+                value="updates"
+                className="bg-gray-50 dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 px-6"
+              >
+                <AccordionTrigger className="text-left text-base md:text-lg font-semibold hover:no-underline">
+                  Can I update the website myself after launch?
+                </AccordionTrigger>
+                <AccordionContent className="text-sm md:text-base text-gray-600 dark:text-gray-400 leading-relaxed">
+                  You won't need to. We include 1 full year of free content
+                  updates. Just tell us what you want changed and we'll handle
+                  it. No login portals, no confusing dashboards. After the first
+                  year, you can renew the update plan or we'll hand over full
+                  access.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem
+                value="need"
+                className="bg-gray-50 dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 px-6"
+              >
+                <AccordionTrigger className="text-left text-base md:text-lg font-semibold hover:no-underline">
+                  Do I really need a website if I have social media?
+                </AccordionTrigger>
+                <AccordionContent className="text-sm md:text-base text-gray-600 dark:text-gray-400 leading-relaxed">
+                  Social media is great for engagement, but it's not a substitute
+                  for a website. You don't own your social profiles. Algorithms
+                  change, accounts get restricted. A website is your home base
+                  that you fully control, and it's the only way to appear in
+                  Google search results when potential customers are actively
+                  looking for your services.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
           </FadeIn>
         </div>
       </section>

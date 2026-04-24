@@ -27,7 +27,7 @@ export default function HeroSection() {
           <FadeIn delay={0.2}>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 md:mb-12 max-w-3xl mx-auto">
               We build powerful AI workflows to save your time, boost
-              conversions, and scale your business — without extra headcount.
+              conversions, and scale your business without extra headcount.
             </p>
           </FadeIn>
 

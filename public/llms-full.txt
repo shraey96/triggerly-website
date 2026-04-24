@@ -1,0 +1,136 @@
+# TriggerlyAI - AI Automation Agency
+
+> TriggerlyAI is an AI automation agency that builds custom workflow automations and voice AI agents for small businesses. We help businesses save time, boost conversions, and scale with AI-powered solutions including AI receptionists, lead automation, and client onboarding systems. Based online, serving clients globally.
+
+## About TriggerlyAI
+
+TriggerlyAI specializes in building done-for-you AI automation systems for small and medium businesses. Unlike DIY automation platforms, we design, build, deploy, and maintain custom AI workflows tailored to each client's specific business processes. Our solutions combine workflow automation tools (n8n, Make.com) with AI models (OpenAI, Anthropic) and voice AI platforms (Vapi, Twilio) to create end-to-end automations that replace manual, repetitive work.
+
+### What Makes TriggerlyAI Different
+- Done-for-you service - we build it, you use it
+- Custom-built for each business, not cookie-cutter templates
+- Full-stack: workflow automation + voice AI + web design
+- Ongoing optimization and support after launch
+- No minimum budget, flexible engagement
+
+### How We Work
+1. Consultation: We understand your current workflows and pain points
+2. Solution Design: We map out a custom automation workflow
+3. Implementation: We build, test, and deploy the automation
+4. Optimization: We monitor, iterate, and improve based on real data
+
+Typical timeline: 2-6 weeks from consultation to launch.
+
+---
+
+## Service: AI Receptionist & Voice AI Agents
+
+URL: https://triggerlyai.io/ai-receptionist
+
+TriggerlyAI builds AI-powered voice receptionists and phone agents for small businesses. Our AI receptionist answers every incoming call 24/7, greets callers naturally, answers frequently asked questions about the business, books appointments directly into the calendar, qualifies leads with smart questions, and routes urgent calls to staff.
+
+### Key Capabilities
+- 24/7 call answering with under 3-second pickup time
+- Natural voice conversation powered by OpenAI and Vapi
+- Real-time appointment booking integrated with Google Calendar
+- FAQ handling trained on business-specific knowledge (hours, services, pricing, location, policies)
+- Lead qualification with custom scoring based on ideal customer profile
+- Call transfer to human staff for urgent or complex matters
+- Full call transcripts and summaries logged to CRM or Slack
+- Works with existing business phone numbers via Twilio
+
+### Results
+- 90% of calls handled without human intervention
+- 3x more qualified leads passed to sales per day
+- 60% reduction in no-show rates with automated reminders
+
+### Industries Best Suited For
+Medical and dental clinics, law firms, salons and spas, real estate agencies, auto services, accounting and finance firms, home services, insurance agencies, and any business that relies on phone calls for revenue.
+
+### Pricing
+Custom pricing based on call volume and complexity. Free 15-minute consultation to scope the project: https://cal.com/shraey-chikker-ad5dyk/15min
+
+---
+
+## Service: AI Workflow Automation
+
+URL: https://triggerlyai.io/use-cases
+
+TriggerlyAI builds custom AI workflow automations across three main categories:
+
+### Lead Management Automations
+- **Instant Website Lead Response**: When a lead submits a form, AI generates a personalized reply and sends it within minutes via email or Slack. Reduces lead response time by 35%. Tools: OpenAI, n8n, Slack, Tally, CRM.
+- **Property Showing Reminders**: AI watches Google Calendar for booked showings and sends personalized WhatsApp reminders to clients. Reduces no-show rate by 60%. Tools: Google Calendar, Make.com, OpenAI, Twilio.
+
+### Sales & Retention Automations
+- **Abandoned Cart Recovery**: Detects abandoned Shopify carts and sends personalized WhatsApp messages with product details and urgency. Increases completed purchases by 18%. Tools: Shopify, n8n, WhatsApp, OpenAI.
+- **AI Support Chatbot**: GPT-powered WhatsApp chatbot that handles common customer questions (order status, returns, shipping). Decreases time-to-first-response by 60%. Tools: WhatsApp API, OpenAI, Airtable.
+
+### Client Onboarding Automations
+- **Automated Welcome Emails**: AI-personalized onboarding emails sent instantly when a client signs up, books, or pays. Saves 4+ hours per week. Tools: Gmail, OpenAI, n8n.
+- **Instant Proposal Generation**: Converts form responses into branded PDF proposals using AI. Reduces proposal creation time by 80%. Tools: Airtable, OpenAI, Make.com.
+
+### Voice AI Automations
+- **AI Receptionist for Small Businesses**: 24/7 AI phone answering with appointment booking and FAQ handling. 90% of calls handled automatically. Tools: Vapi, OpenAI, Google Calendar, Twilio, Slack.
+- **AI Phone Agent for Lead Qualification**: Automated outbound calling that qualifies leads within 2 minutes of signup and books qualified prospects onto sales calendars. 3x more qualified leads per day. Tools: Vapi, OpenAI, n8n, Twilio, HubSpot.
+
+---
+
+## Service: Small Business Web Design
+
+URL: https://triggerlyai.io/website-solutions
+
+Professional, mobile-friendly website design for small businesses. Every package includes domain name, hosting for 1 year, SSL security certificate, mobile-responsive design, Google Maps integration, basic SEO setup (meta tags, local keywords), Google Search submission, and 1 year of free content updates.
+
+---
+
+## Tools & Technology Stack
+
+TriggerlyAI builds with the following tools and platforms:
+- **AI Models**: OpenAI (GPT), Anthropic (Claude), Deepseek
+- **Voice AI**: Vapi, Twilio
+- **Workflow Automation**: n8n, Make.com
+- **CRM & Databases**: Airtable, Notion, HubSpot, Google Sheets
+- **Communication**: Slack, Gmail, WhatsApp API, Discord
+- **E-commerce**: Shopify
+- **Calendar**: Google Calendar, Calendly
+- **Other**: Google Drive, Google Docs, Jira, GitHub, LinkedIn, Instagram
+
+---
+
+## Contact & Booking
+
+- Website: https://triggerlyai.io
+- Email: hello@triggerlyai.io
+- Free 15-min consultation: https://cal.com/shraey-chikker-ad5dyk/15min
+- Contact form: https://triggerlyai.io/#contact
+- Twitter: @triggerlyai
+- LinkedIn: https://linkedin.com/company/triggerlyai
+
+---
+
+## Frequently Asked Questions
+
+**What kind of businesses benefit from AI automation?**
+Any business with repetitive processes, but we particularly excel with consultants, agencies, e-commerce stores, medical practices, law firms, and service businesses.
+
+**How long does it take to implement an AI workflow?**
+Most automation workflows are designed, built, and implemented within 2-6 weeks, depending on complexity.
+
+**What tools do you use?**
+Make.com, n8n, OpenAI, Vapi, Airtable, Google Suite, Notion, Calendly, Slack, Twilio, and many more. We pick the best tools for each specific use case.
+
+**Do you offer ongoing support?**
+Yes. Every automation includes post-launch monitoring, optimization, and support to ensure it runs smoothly and improves over time.
+
+**Is there a minimum budget?**
+No minimum budget. We scope each project based on your needs and provide a custom quote.
+
+**What is an AI receptionist?**
+An AI receptionist is a voice AI agent that answers your business phone calls 24/7 using natural language. It can greet callers, answer questions about your business, book appointments into your calendar, qualify leads, and transfer urgent calls to your team, all without human involvement.
+
+**How does the AI receptionist sound?**
+Our AI receptionists use advanced text-to-speech and natural language understanding to sound conversational and professional. Callers often can't tell it's AI.
+
+**Can the AI receptionist integrate with my existing phone system?**
+Yes. We use Twilio to integrate with your existing business phone number. No hardware changes needed.

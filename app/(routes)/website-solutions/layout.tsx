@@ -2,24 +2,25 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "Website Design & Solutions for Businesses – TriggerlyAI",
+  title: "Website Design & Solutions for Businesses | TriggerlyAI",
   description:
-    "Professional website design for businesses. Domain, hosting, SEO and support included. Get found online today.",
+    "Professional website design for businesses. We build mobile-friendly websites with domain, hosting, SSL, SEO, and 1 year of free updates included. Get your business found online.",
   keywords: [
-    "website design for business",
-    "business website",
-    "professional website design",
-    "SMB website solutions",
-    "get business online",
+    "small business web design services",
+    "website design for small business",
     "affordable website design",
+    "professional website for business",
+    "business website cost",
+    "website design agency",
     "business website with SEO",
     "website with hosting included",
+    "get business online",
   ],
   alternates: {
-    canonical: "/website-solutions",
+    canonical: "https://triggerlyai.io/website-solutions",
   },
   openGraph: {
-    title: "Website Design & Solutions for Businesses – TriggerlyAI",
+    title: "Website Design & Solutions for Businesses | TriggerlyAI",
     description:
       "Professional website design for businesses. Domain, hosting, SEO and 1 year of updates included.",
     url: "https://triggerlyai.io/website-solutions",
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Website Design & Solutions for Businesses – TriggerlyAI",
+    title: "Website Design & Solutions for Businesses | TriggerlyAI",
     description:
       "Professional website design for businesses. Domain, hosting, SEO and support included.",
     images: ["/images/og-website-desktop.png"],

@@ -54,9 +54,14 @@ export const OrganizationSchema = () => {
             "Lead Generation",
             "Customer Service Automation",
             "GPT Integration",
+            "AI Receptionist",
+            "Voice AI Agents",
+            "AI Answering Service",
+            "AI Phone Agent",
             "Airtable",
             "Make.com",
             "n8n",
+            "Vapi",
           ],
         }),
       }}
@@ -127,6 +132,26 @@ export const ServicesSchema = () => {
                 itemOffered: {
                   "@type": "Service",
                   name: "Cart Recovery Automation",
+                },
+              },
+              {
+                "@type": "Offer",
+                itemOffered: {
+                  "@type": "Service",
+                  name: "AI Receptionist",
+                  description:
+                    "AI-powered virtual receptionist that answers calls 24/7, books appointments, and qualifies leads for small businesses.",
+                  url: "https://triggerlyai.io/ai-receptionist",
+                },
+              },
+              {
+                "@type": "Offer",
+                itemOffered: {
+                  "@type": "Service",
+                  name: "Voice AI Phone Agent",
+                  description:
+                    "Automated AI phone agent that calls and qualifies leads, handles customer inquiries, and routes calls intelligently.",
+                  url: "https://triggerlyai.io/ai-receptionist",
                 },
               },
             ],

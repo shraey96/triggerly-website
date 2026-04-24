@@ -9,9 +9,9 @@ import UseCaseCard from "@/components/UseCaseCard";
 // Get the four specified use cases
 const getHighlightedUseCases = (): UseCase[] => {
   const highlightedCases = [
+    getUseCaseBySlug("ai-receptionist-small-business"),
     getUseCaseBySlug("website-lead-response"),
     getUseCaseBySlug("auto-onboarding-emails"),
-    getUseCaseBySlug("auto-proposal-generation"),
     getUseCaseBySlug("cart-recovery-automation"),
   ];
 
@@ -33,7 +33,7 @@ export default function UseCaseCardsGrid() {
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 text-center mb-8 sm:mb-12 md:mb-16 max-w-3xl mx-auto">
             Explore examples of high-leverage automations built using AI
-            workflows — with clear business outcomes.
+            workflows with clear business outcomes.
           </p>
         </FadeIn>
 

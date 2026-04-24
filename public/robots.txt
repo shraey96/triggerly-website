@@ -2,9 +2,28 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
+# Explicitly allow AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# Sitemap
 Sitemap: https://triggerlyai.io/sitemap.xml
 
-# Disallow admin or private areas if needed
-# Disallow: /admin/
-# Disallow: /private/ 
+# LLM context files
+# llms.txt: https://triggerlyai.io/llms.txt
+# llms-full.txt: https://triggerlyai.io/llms-full.txt

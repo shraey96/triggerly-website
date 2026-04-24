@@ -18,14 +18,14 @@ export const testimonials: Testimonial[] = [
     title: "Ecom Store Founder",
     automation: "Cart Recovery Automation",
     quote:
-      "We recovered over a dozen abandoned checkouts in just the first week. The WhatsApp reminders feel natural — and they convert.",
+      "We recovered over a dozen abandoned checkouts in just the first week. The WhatsApp reminders feel natural, and they convert.",
   },
   {
     name: "Daniel M.",
     title: "Consultant",
     automation: "Proposal Generation System",
     quote:
-      "Creating client proposals used to eat up hours. Now it's just a form and a click. My clients get polished PDFs instantly — and I've freed up 5–6 hours every week.",
+      "Creating client proposals used to eat up hours. Now it's just a form and a click. My clients get polished PDFs instantly, and I've freed up 5–6 hours every week.",
   },
 ];
 

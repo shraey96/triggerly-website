@@ -15,8 +15,11 @@ import {
   BarChart,
   ShoppingCart,
   MessageSquare,
+  Phone,
+  Headphones,
   LucideIcon,
 } from "lucide-react";
+import type { Metadata } from "next";
 
 const iconsMap: Record<string, LucideIcon> = {
   Zap: Zap,
@@ -25,6 +28,8 @@ const iconsMap: Record<string, LucideIcon> = {
   BarChart: BarChart,
   ShoppingCart: ShoppingCart,
   MessageSquare: MessageSquare,
+  Phone: Phone,
+  Headphones: Headphones,
 };
 
 // Generate static params for all use case slugs
@@ -33,6 +38,28 @@ export function generateStaticParams() {
   return useCases.map((useCase) => ({
     slug: useCase.slug,
   }));
+}
+
+export function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Metadata {
+  const useCase = getUseCaseBySlug(params.slug);
+  if (!useCase) return {};
+
+  return {
+    title: `${useCase.title} | TriggerlyAI`,
+    description: useCase.details?.overview || useCase.solution,
+    alternates: {
+      canonical: `https://triggerlyai.io/use-cases/${useCase.slug}`,
+    },
+    openGraph: {
+      title: `${useCase.title} | TriggerlyAI`,
+      description: useCase.details?.overview || useCase.solution,
+      url: `https://triggerlyai.io/use-cases/${useCase.slug}`,
+    },
+  };
 }
 
 export default function UseCaseDetailPage({

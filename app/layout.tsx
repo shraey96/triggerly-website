@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://triggerlyai.io"),
   alternates: {
-    canonical: "/",
+    canonical: "https://triggerlyai.io",
   },
   openGraph: {
     title: "TriggerlyAI - Custom AI Automation Solutions for Business",
@@ -118,8 +118,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="canonical" href="https://triggerlyai.io" />
         <SchemaMarkup />
+        <link rel="alternate" type="text/plain" href="https://triggerlyai.io/llms.txt" title="LLM Information" />
+        <link rel="alternate" type="text/plain" href="https://triggerlyai.io/llms-full.txt" title="LLM Full Information" />
       </head>
       <body className={inter.className}>
         <ThemeProvider

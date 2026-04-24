@@ -1,0 +1,34 @@
+# TriggerlyAI
+
+> TriggerlyAI is an AI automation agency that builds custom workflow automations and voice AI agents for small businesses. We help businesses save time, boost conversions, and scale with AI-powered solutions including AI receptionists, lead automation, and client onboarding systems.
+
+## Services
+
+- [AI Receptionist & Voice AI Agents](https://triggerlyai.io/ai-receptionist): 24/7 AI-powered phone answering, appointment booking, lead qualification, and FAQ handling for small businesses. Built with Vapi, OpenAI, and calendar integrations.
+- [AI Workflow Automation](https://triggerlyai.io/use-cases): Custom automation solutions for lead management, sales & retention, and client onboarding using n8n, Make.com, OpenAI, and 16+ integrations.
+- [Small Business Web Design](https://triggerlyai.io/website-solutions): Professional website design with domain, hosting, SEO, and 1 year of updates included.
+
+## Use Cases
+
+- [Instant Website Lead Response](https://triggerlyai.io/use-cases/website-lead-response): Respond to website inquiries in under 3 minutes using AI-generated personalized messages.
+- [AI Receptionist for Small Businesses](https://triggerlyai.io/use-cases/ai-receptionist-small-business): AI voice receptionist that answers calls 24/7, books appointments, and handles FAQs.
+- [AI Phone Agent for Lead Qualification](https://triggerlyai.io/use-cases/ai-phone-agent-lead-qualification): Automated outbound AI agent that calls, qualifies, and routes leads to sales.
+- [Abandoned Cart Recovery](https://triggerlyai.io/use-cases/cart-recovery-automation): WhatsApp-based cart recovery automation for e-commerce.
+- [AI Support Chatbot](https://triggerlyai.io/use-cases/support-chatbot-ecom): GPT-powered WhatsApp chatbot for handling customer support FAQs.
+- [Automated Welcome Emails](https://triggerlyai.io/use-cases/auto-onboarding-emails): AI-personalized onboarding emails sent automatically on signup.
+- [Instant Proposal Generation](https://triggerlyai.io/use-cases/auto-proposal-generation): Auto-generate branded PDF proposals from form inputs using AI.
+- [Property Showing Reminders](https://triggerlyai.io/use-cases/calendar-reminders-real-estate): Automated WhatsApp reminders for scheduled property showings.
+
+## Industries Served
+
+Small businesses, medical clinics, dental offices, law firms, salons & spas, real estate agencies, e-commerce stores, SaaS companies, marketing agencies, consultants, coaches, and service businesses.
+
+## Tools & Integrations
+
+OpenAI, Vapi, n8n, Make.com, Google Calendar, Gmail, Slack, Airtable, Notion, Shopify, WhatsApp API, Twilio, HubSpot, Discord, LinkedIn, and more.
+
+## Contact
+
+- Website: https://triggerlyai.io
+- Email: hello@triggerlyai.io
+- Book a Call: https://cal.com/shraey-chikker-ad5dyk/15min
