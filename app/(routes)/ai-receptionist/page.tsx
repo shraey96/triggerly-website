@@ -397,7 +397,7 @@ export default function AIReceptionistPage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white/10 h-12 md:h-14 px-8 rounded-full text-base"
+                className="border-white bg-transparent text-white hover:bg-white/10 hover:text-white h-12 md:h-14 px-8 rounded-full text-base"
                 asChild
               >
                 <Link href="/#contact">Send a Message</Link>
