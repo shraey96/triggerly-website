@@ -56,7 +56,7 @@ const features = [
   {
     icon: Phone,
     title: "Answers every call, 24/7",
-    body: "Your AI receptionist picks up instantly, no hold music, no voicemail, no missed opportunities. Day, night, weekends, holidays.",
+    body: "Your AI voice agent picks up instantly, no hold music, no voicemail, no missed opportunities. Day, night, weekends, holidays.",
   },
   {
     icon: CalendarCheck,
@@ -103,7 +103,7 @@ const howItWorks = [
   {
     step: "04",
     title: "You go live and scale",
-    body: "Your AI receptionist goes live on your business phone line. We monitor, optimize, and refine it continuously based on real call data.",
+    body: "Your AI voice agent goes live on your business phone line. We monitor, optimize, and refine it continuously based on real call data.",
   },
 ];
 
@@ -312,7 +312,7 @@ export default function AIReceptionistPage() {
               Built for businesses that rely on phone calls
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-400 text-center mb-12 md:mb-16 max-w-2xl mx-auto">
-              If your business gets phone calls, an AI receptionist can help.
+              If your business gets phone calls, an AI voice agent can help.
               Here are the industries we work with most.
             </p>
           </FadeIn>

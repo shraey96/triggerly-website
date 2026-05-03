@@ -11,7 +11,7 @@ import { useTheme } from "next-themes";
 import { handleSmoothScroll } from "@/lib/utils";
 
 const navLinks = [
-  { name: "AI Receptionist", path: "/ai-receptionist" },
+  { name: "AI Voice Agents", path: "/ai-receptionist" },
   { name: "Use Cases", path: "/#use-cases" },
   { name: "FAQ", path: "/#faq" },
 ];
